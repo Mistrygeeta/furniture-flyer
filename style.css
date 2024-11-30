@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* body{
+    background-color:rgb(77, 4, 248);
+} */
+
+.container{
+    width: 850px;
+    height: 100%;
+    margin-top: 30px;
+}
+
+.container > .page1{
+    width: 100%;
+    height: 350px;
+    background-image: url(https://plus.unsplash.com/premium_photo-1673014201217-14442b17ab56?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px 30px;
+}
+
+.page1 > .text{
+    width: 360px;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+
+.text > h3{
+     font-size: 35px;
+     font-weight: 500;
+}
+
+.text > h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.text > p{
+    font-size: 15px;
+}
+
+button{
+    position: absolute;
+    top: 45%;
+    left: 60%;
+    padding: 5px 20px;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: peru;
+    border: none;
+    color: white;
+}
+
+.page2{
+    width: 100%;
+    background-color: rgb(231, 211, 211);
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content > .box{
+    width: 450px;
+    margin: 35px 20px;
+}
+
+.box > h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box > p{
+    font-size: 15px;
+    padding: 20px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+}
+/* span{
+      height: 15px;
+      width: 15px;
+      border-radius: 50%;
+      background-color: black;
+      display:inline-block;
+} */
+
+
+
+h3{
+    display: inline;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image{
+    margin-top: 40px;
+}
+
+.image > img{
+    width: 350px;
+    padding: 10px 10px;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 100%;
+    height: 550px; */
+}
+
+ .boxes{
+    width: 250px;
+    height: 350px;
+    background-color:white;
+    margin: 15px;
+}
+
+.boxes > .upper{
+    width: 100%;
+    height: 60%;
+}
+.upper > h1{
+    display: block;
+    position: absolute;
+    background-color: black;
+    color: white;
+    border-bottom-right-radius: 25px;
+    padding: 5px 10px;
+}
+ img{
+    width: 100%;
+    height: 100%;
+}
+
+.lower{
+    width: 100%;
+    height: 40%;
+}
+
+.lower> p{
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0;
+}
+
+.lower > h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
